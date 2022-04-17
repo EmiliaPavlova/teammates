@@ -1,0 +1,48 @@
+.form-wrapper {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 350px;
+	padding: 5px 10px 12px;
+	background: #dedede;
+	border: 1px solid #767676;
+	border-radius: 4px;
+}
+
+.form-close {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	cursor: pointer;
+}
+
+.form-comment {
+	font-size: 14px;
+}
+
+.form-item {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.form-item-label {
+	display: inline-block;
+	font-size: 14px;
+	margin-right: 10px;
+	width: 80px;
+}
+
+.form-buttons {
+	margin-top: 20px;
+}
+
+.form-button {
+	margin-right: 10px;
+}
+
+.form-item-error {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 10px;
+	color: red;
+}

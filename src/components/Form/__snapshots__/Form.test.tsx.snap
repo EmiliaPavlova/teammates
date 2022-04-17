@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component renders the component with all props 1`] = `
+<div
+  className="form-wrapper"
+>
+  <div
+    className="form-close"
+    onClick={[MockFunction]}
+  >
+    ✖
+  </div>
+  <p
+    className="form-comment"
+  >
+    Write down teammate's name and birthday and submit
+  </p>
+  <Input
+    id="first-name"
+    label="First name:"
+    onChange={[Function]}
+    value=""
+  />
+  <Input
+    id="last-name"
+    label="Last name:"
+    onChange={[Function]}
+    value=""
+  />
+  <Input
+    id="birthday"
+    label="Birthday:"
+    onChange={[Function]}
+    placeholder="DD.MM.YYYY"
+    value=""
+  />
+  <div
+    className="form-buttons"
+  >
+    <button
+      className="form-button"
+      onClick={[Function]}
+    >
+      Submit
+    </button>
+    <button
+      className="form-button"
+      onClick={[MockFunction]}
+    >
+      Cancel
+    </button>
+  </div>
+</div>
+`;

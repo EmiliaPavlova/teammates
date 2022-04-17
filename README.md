@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+## Task:
+It’s a list of teammates that informs you when somebody is having a birthday. You can add new teammate using the form. The fields are validated, so it’s expected that a teammate has both first and last names and the birthday is a valid date. On the bottom of the form, there are Submit and Cancel buttons. The first one submits the form and adds new record if all inputs are valid, the second one closes the form and clears all fields.
+- Rewrite the component using TypeScript and functional components syntax
+- Disentangle the component and separate it into several components
+- The business logic should be extracted from the component
+- State should also be managed outside (you can use any solution you find suitable)
+- Write tests covering the logic
+- Additional functionality:
+  - Process pressing Enter and Escape keys and map them onto Submit and Cancel buttons’ actions, respectively
+  - Render day and month of birthday (omit the year) in human readable format (e.g., «Jun, 16») instead of age
+  - Sort the list in the day-month order ignoring the year (we want to see the order of birthdays, and not the order of ages)
+  - Add a new field into both form and the record that will hold the date a teammate joined the team. Render it near the birthday (don’t forget the year)
+  - Render the form in a modal window
+    * (optional) Let the list look like a table but without using table tag
+    * (optional) Add the functionality to remove the teammate from the list:
+Add a button at the end of each row
+Before submitting the removal, ask a user to enter a required date when the teammate left the team and optional comment
+Move the removed item into another list and render it under the list of active teammates
+Specify there the teammate’s name, date of joining, date of leaving and the comment
+If the list is empty don’t show the heading
+#
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

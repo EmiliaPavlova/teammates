@@ -1,0 +1,24 @@
+.teammates {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.teammates-item {
+	margin-bottom: 10px;
+}
+
+.teammate-name {
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+.teammate-joined {
+	margin-left: 50px
+}
+
+.teammate-birthday {
+	margin-left: 20px;
+	font-weight: bold;
+	color: #d09;
+}

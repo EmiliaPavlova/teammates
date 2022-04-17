@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component renders the component with all props 1`] = `
+<label
+  className="form-item"
+  htmlFor="Name"
+>
+  <span
+    className="form-item-label"
+  >
+    Name
+  </span>
+  <input
+    id="Name"
+    onChange={[MockFunction]}
+    placeholder="enter name"
+    value="John Doe"
+  />
+  <span
+    className="form-item-error"
+  >
+    error
+  </span>
+</label>
+`;
+
+exports[`Input component renders the component without an error 1`] = `
+<label
+  className="form-item"
+  htmlFor="Name"
+>
+  <span
+    className="form-item-label"
+  >
+    Name
+  </span>
+  <input
+    id="Name"
+    onChange={[MockFunction]}
+    placeholder="enter name"
+    value="John Doe"
+  />
+</label>
+`;
