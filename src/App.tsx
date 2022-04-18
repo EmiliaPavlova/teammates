@@ -1,4 +1,4 @@
-import Teammates from './Teammates/Teammates';
+import Teammates from './containers/Teammates/Teammates';
 import './App.css';
 
 function App() {

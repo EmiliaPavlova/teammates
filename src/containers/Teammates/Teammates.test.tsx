@@ -8,11 +8,13 @@ describe('Teammates component', () => {
   afterEach(cleanup);
 
   it('opens modal on button click', async () => {
-    const initialState = [{
-      name: 'John Doe',
-      birthday: new Date('20.12.1980'),
-      joined: new Date('17.04.2022')
-    }];
+    const initialState = {
+      teammates: [{
+        name: 'John Doe',
+        birthday: new Date('20.12.1980'),
+        joined: new Date('17.04.2022')
+      }]
+    };
     const mockStore = configureStore();
     const store = mockStore(initialState);
     render(<Provider store={store}><Teammates /></Provider>);

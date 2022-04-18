@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import Input from '../Input/Input';
+import Input from '../../components/Input/Input';
 import './Form.css';
 
 export type Props = {

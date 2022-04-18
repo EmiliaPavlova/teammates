@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
-import Form from './Form';
 import { render, screen, cleanup } from "@testing-library/react";
 import userEvent from '@testing-library/user-event';
+import Form from './Form';
 
 describe('Form component', () => {
   afterEach(cleanup);

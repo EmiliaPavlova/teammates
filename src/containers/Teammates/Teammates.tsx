@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useSelector, shallowEqual, useDispatch } from 'react-redux';
 import { Dispatch } from 'redux'
 import moment from 'moment';
-import Form from '../components/Form/Form';
-import { addTeammate } from '../store/actionCreators';
+import Form from '../Form/Form';
+import { addTeammate } from '../../store/actionCreators';
 import './Teammates.css';
 
 export default function Teammates() {
